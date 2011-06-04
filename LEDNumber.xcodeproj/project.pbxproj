@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FC4F2501396D27B00AC15DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC4F24F1396D27B00AC15DC /* UIKit.framework */; };
+		1FC4F2521396D27B00AC15DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC4F2511396D27B00AC15DC /* Foundation.framework */; };
+		1FC4F2541396D27B00AC15DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC4F2531396D27B00AC15DC /* CoreGraphics.framework */; };
+		1FC4F25A1396D27C00AC15DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4F2581396D27C00AC15DC /* InfoPlist.strings */; };
+		1FC4F25D1396D27C00AC15DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4F25C1396D27C00AC15DC /* main.m */; };
+		1FC4F2601396D27C00AC15DC /* LEDNumberAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4F25F1396D27C00AC15DC /* LEDNumberAppDelegate.m */; };
+		1FC4F2631396D27C00AC15DC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4F2611396D27C00AC15DC /* MainWindow.xib */; };
+		1FC4F2661396D27C00AC15DC /* LEDNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4F2651396D27C00AC15DC /* LEDNumberViewController.m */; };
+		1FC4F2691396D27C00AC15DC /* LEDNumberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC4F2671396D27C00AC15DC /* LEDNumberViewController.xib */; };
+		1FD20433139A5E67001337EA /* LEDNumberLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD2042E139A5E67001337EA /* LEDNumberLayer.m */; };
+		1FD20434139A5E67001337EA /* LEDNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD20430139A5E67001337EA /* LEDNumberView.m */; };
+		1FD20435139A5E67001337EA /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD20431139A5E67001337EA /* tick.png */; };
+		1FD20436139A5E67001337EA /* tickc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD20432139A5E67001337EA /* tickc.png */; };
+		1FD20439139A5F7B001337EA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD20438139A5F7B001337EA /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FC4F24B1396D27B00AC15DC /* LEDNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC4F24F1396D27B00AC15DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FC4F2511396D27B00AC15DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FC4F2531396D27B00AC15DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FC4F2571396D27C00AC15DC /* LEDNumber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEDNumber-Info.plist"; sourceTree = "<group>"; };
+		1FC4F2591396D27C00AC15DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FC4F25B1396D27C00AC15DC /* LEDNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LEDNumber-Prefix.pch"; sourceTree = "<group>"; };
+		1FC4F25C1396D27C00AC15DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FC4F25E1396D27C00AC15DC /* LEDNumberAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEDNumberAppDelegate.h; sourceTree = "<group>"; };
+		1FC4F25F1396D27C00AC15DC /* LEDNumberAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDNumberAppDelegate.m; sourceTree = "<group>"; };
+		1FC4F2621396D27C00AC15DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1FC4F2641396D27C00AC15DC /* LEDNumberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEDNumberViewController.h; sourceTree = "<group>"; };
+		1FC4F2651396D27C00AC15DC /* LEDNumberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDNumberViewController.m; sourceTree = "<group>"; };
+		1FC4F2681396D27C00AC15DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LEDNumberViewController.xib; sourceTree = "<group>"; };
+		1FD2042D139A5E67001337EA /* LEDNumberLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDNumberLayer.h; sourceTree = "<group>"; };
+		1FD2042E139A5E67001337EA /* LEDNumberLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDNumberLayer.m; sourceTree = "<group>"; };
+		1FD2042F139A5E67001337EA /* LEDNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDNumberView.h; sourceTree = "<group>"; };
+		1FD20430139A5E67001337EA /* LEDNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDNumberView.m; sourceTree = "<group>"; };
+		1FD20431139A5E67001337EA /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		1FD20432139A5E67001337EA /* tickc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tickc.png; sourceTree = "<group>"; };
+		1FD20438139A5F7B001337EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FC4F2481396D27B00AC15DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD20439139A5F7B001337EA /* QuartzCore.framework in Frameworks */,
+				1FC4F2501396D27B00AC15DC /* UIKit.framework in Frameworks */,
+				1FC4F2521396D27B00AC15DC /* Foundation.framework in Frameworks */,
+				1FC4F2541396D27B00AC15DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC4F2401396D27B00AC15DC = {
+			isa = PBXGroup;
+			children = (
+				1FC4F2551396D27B00AC15DC /* LEDNumber */,
+				1FC4F24E1396D27B00AC15DC /* Frameworks */,
+				1FC4F24C1396D27B00AC15DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FC4F24C1396D27B00AC15DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FC4F24B1396D27B00AC15DC /* LEDNumber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FC4F24E1396D27B00AC15DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FD20438139A5F7B001337EA /* QuartzCore.framework */,
+				1FC4F24F1396D27B00AC15DC /* UIKit.framework */,
+				1FC4F2511396D27B00AC15DC /* Foundation.framework */,
+				1FC4F2531396D27B00AC15DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FC4F2551396D27B00AC15DC /* LEDNumber */ = {
+			isa = PBXGroup;
+			children = (
+				1FD2042D139A5E67001337EA /* LEDNumberLayer.h */,
+				1FD2042E139A5E67001337EA /* LEDNumberLayer.m */,
+				1FD2042F139A5E67001337EA /* LEDNumberView.h */,
+				1FD20430139A5E67001337EA /* LEDNumberView.m */,
+				1FC4F2641396D27C00AC15DC /* LEDNumberViewController.h */,
+				1FC4F2651396D27C00AC15DC /* LEDNumberViewController.m */,
+				1FC4F2671396D27C00AC15DC /* LEDNumberViewController.xib */,
+				1FC4F25E1396D27C00AC15DC /* LEDNumberAppDelegate.h */,
+				1FC4F25F1396D27C00AC15DC /* LEDNumberAppDelegate.m */,
+				1FC4F2611396D27C00AC15DC /* MainWindow.xib */,
+				1FC4F2561396D27C00AC15DC /* Supporting Files */,
+			);
+			path = LEDNumber;
+			sourceTree = "<group>";
+		};
+		1FC4F2561396D27C00AC15DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FD20431139A5E67001337EA /* tick.png */,
+				1FD20432139A5E67001337EA /* tickc.png */,
+				1FC4F2571396D27C00AC15DC /* LEDNumber-Info.plist */,
+				1FC4F2581396D27C00AC15DC /* InfoPlist.strings */,
+				1FC4F25B1396D27C00AC15DC /* LEDNumber-Prefix.pch */,
+				1FC4F25C1396D27C00AC15DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FC4F24A1396D27B00AC15DC /* LEDNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC4F26C1396D27C00AC15DC /* Build configuration list for PBXNativeTarget "LEDNumber" */;
+			buildPhases = (
+				1FC4F2471396D27B00AC15DC /* Sources */,
+				1FC4F2481396D27B00AC15DC /* Frameworks */,
+				1FC4F2491396D27B00AC15DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEDNumber;
+			productName = LEDNumber;
+			productReference = 1FC4F24B1396D27B00AC15DC /* LEDNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FC4F2421396D27B00AC15DC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1FC4F2451396D27B00AC15DC /* Build configuration list for PBXProject "LEDNumber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FC4F2401396D27B00AC15DC;
+			productRefGroup = 1FC4F24C1396D27B00AC15DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FC4F24A1396D27B00AC15DC /* LEDNumber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FC4F2491396D27B00AC15DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC4F25A1396D27C00AC15DC /* InfoPlist.strings in Resources */,
+				1FC4F2631396D27C00AC15DC /* MainWindow.xib in Resources */,
+				1FC4F2691396D27C00AC15DC /* LEDNumberViewController.xib in Resources */,
+				1FD20435139A5E67001337EA /* tick.png in Resources */,
+				1FD20436139A5E67001337EA /* tickc.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC4F2471396D27B00AC15DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC4F25D1396D27C00AC15DC /* main.m in Sources */,
+				1FC4F2601396D27C00AC15DC /* LEDNumberAppDelegate.m in Sources */,
+				1FC4F2661396D27C00AC15DC /* LEDNumberViewController.m in Sources */,
+				1FD20433139A5E67001337EA /* LEDNumberLayer.m in Sources */,
+				1FD20434139A5E67001337EA /* LEDNumberView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FC4F2581396D27C00AC15DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC4F2591396D27C00AC15DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FC4F2611396D27C00AC15DC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC4F2621396D27C00AC15DC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1FC4F2671396D27C00AC15DC /* LEDNumberViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC4F2681396D27C00AC15DC /* en */,
+			);
+			name = LEDNumberViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FC4F26A1396D27C00AC15DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FC4F26B1396D27C00AC15DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1FC4F26D1396D27C00AC15DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDNumber/LEDNumber-Prefix.pch";
+				INFOPLIST_FILE = "LEDNumber/LEDNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FC4F26E1396D27C00AC15DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDNumber/LEDNumber-Prefix.pch";
+				INFOPLIST_FILE = "LEDNumber/LEDNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FC4F2451396D27B00AC15DC /* Build configuration list for PBXProject "LEDNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC4F26A1396D27C00AC15DC /* Debug */,
+				1FC4F26B1396D27C00AC15DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC4F26C1396D27C00AC15DC /* Build configuration list for PBXNativeTarget "LEDNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC4F26D1396D27C00AC15DC /* Debug */,
+				1FC4F26E1396D27C00AC15DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FC4F2421396D27B00AC15DC /* Project object */;
+}
