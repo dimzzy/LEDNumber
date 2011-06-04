@@ -1,0 +1,13 @@
+LEDNumber is licensed under the terms of the Simplified BSD License. Copyright 2011, Dmitry Stadnik.
+
+LEDNumberLayer is a CALayer that has the 'number' property and draws it as if it was composed from LED indicators. The property is animatable:
+
+	CABasicAnimation *dna = [CABasicAnimation animationWithKeyPath:@"number"];
+	dna.fromValue = [NSNumber numberWithInt:0];
+	dna.toValue = [NSNumber numberWithInt:218];
+	dna.duration = 5;
+	dna.fillMode = kCAFillModeRemoved;
+	[self.dnView.numberLayer addAnimation:dna forKey:@"numberFlip"];
+	self.dnView.numberLayer.number = 218;
+
+LEDNumberView is a simple wrapper view for LEDNumberLayer.
