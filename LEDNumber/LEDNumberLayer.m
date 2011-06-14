@@ -197,18 +197,18 @@ typedef enum {
 			break;
 		}
 		case 6: {
-			[self drawDigitSegment:DigitSegmentTopRight inContext:ctx];
-			[self drawDigitSegment:DigitSegmentBottomRight inContext:ctx];
-			[self drawDigitSegment:DigitSegmentTop inContext:ctx];
-			break;
-		}
-		case 7: {
-			[self drawDigitSegment:DigitSegmentTopRight inContext:ctx];
 			[self drawDigitSegment:DigitSegmentBottomRight inContext:ctx];
 			[self drawDigitSegment:DigitSegmentTopLeft inContext:ctx];
 			[self drawDigitSegment:DigitSegmentBottomLeft inContext:ctx];
 			[self drawDigitSegment:DigitSegmentTop inContext:ctx];
 			[self drawDigitSegment:DigitSegmentBottom inContext:ctx];
+			[self drawDigitSegment:DigitSegmentCenter inContext:ctx];
+			break;
+		}
+		case 7: {
+			[self drawDigitSegment:DigitSegmentTopRight inContext:ctx];
+			[self drawDigitSegment:DigitSegmentBottomRight inContext:ctx];
+			[self drawDigitSegment:DigitSegmentTop inContext:ctx];
 			break;
 		}
 		case 8: {
